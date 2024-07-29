@@ -1,0 +1,791 @@
+*{
+    background-image: url('background.jpg') ;
+    
+    /* width: 1485px;
+height: 990px;
+top: 17px;
+left: -23px;
+gap: 0px;
+opacity: 0px; */
+
+}
+
+.navbar{
+    width: Fixed (76.101rem)rem;
+    height: Hug (2rem)rem;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    background: none;
+} 
+
+.toppart{
+    width: Fixed (90rem)rem;
+    height: Hug (6rem)rem;
+    padding: 2rem 6.125rem 2rem 6.125rem;
+    gap: 0.5rem;
+    opacity: 0px;
+}
+.content{
+    color:#ffff;
+    width: 60rem;
+    height: 25rem;
+    margin-top: 7.5rem;
+    margin-left: 13rem;
+    gap: 3.5rem;
+    opacity: 0px;
+    font-size: 2rem;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+.content p{
+    font-weight:100;
+    font-size: 0.8rem;
+    background: none;
+}
+
+.learnmore{
+    background: none;
+    height:50px;
+    width:160px;
+}
+.learnmore{
+    animation-name: slidein ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein{
+    from{
+        transform:translateX(-20vw);
+}
+to {
+  transform: translateX(18vw);
+}
+}
+.rightbottomplanet{
+    position:absolute;
+    left:1020px;
+    background: none;
+}
+.bottomcenter{
+    position:absolute;
+    left:560px;
+    bottom:-270px;
+    background: none;
+}
+
+.bottomleft{
+    position:absolute;
+    bottom:-270px;
+    background: none;
+}
+.middleleft{
+    height:470px;
+    position:absolute;
+    bottom:-100px;
+    z-index: 2;
+    background: none;
+}
+.topleft{
+    height:200px;
+    position:absolute;
+    bottom:400px;
+    background: none;
+}
+.topright{
+    height:400px;
+    left:1180px;
+    bottom:200px;
+    position: absolute;
+    z-index: 2;
+    background: none;
+}
+.topcenter{
+    position:absolute;
+    height:100px;
+    left:650px;
+    bottom:470px;
+    z-index: 2;
+    background: none;
+}
+.topcenter {
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.navbar{
+    position: relative;
+    z-index : 2;
+}
+h1{
+    z-index: 2;
+}
+.content h1{
+    position: relative;
+    z-index: 2;
+    background: none;
+}
+.sunshade{
+    position: absolute;
+    bottom:-1035px;
+}
+.sunpic{
+    position: absolute;
+    bottom:-790px;
+    width:1400px;
+    background: none;
+    z-index: 2;
+}
+.sunhead{
+    position: absolute;
+    bottom:-960px;
+    background:none;
+    left:100px;
+}
+.suncard1{
+    position: absolute;
+    bottom:-1170px;
+    background: none;
+    left:100px;
+}
+.suncard2{
+    position: absolute;
+    bottom:-1170px;
+    background: none;
+    left:500px;
+}
+.suncard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.suncard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.suncard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.suncard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.mercuryimg{
+    position: absolute;
+    bottom:-2000px;
+    background: none;
+}
+.mercuryheading{
+    position: absolute;
+    bottom:-1400px;
+    background: none;
+    right:0px;
+}
+.mercurytext{
+    position:absolute;
+    bottom:-1500px;
+    right:7px;
+    background: none;
+}
+.mercard1{
+    position: absolute;
+    bottom:-1700px;
+    left:680px;
+    background: none;
+}
+.mercard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.mercard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.mercard2{
+    position: absolute;
+    bottom:-1700px;
+    left:1060px;
+    background: none;
+}
+.mercard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.mercard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.mercard3{
+    position: absolute;
+    bottom:-1900px;
+    left:680px;
+    background: none;
+}
+.mercard3 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.mercard3:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.venusshadow{
+    position:absolute;
+    height:700px;
+    bottom:-2700px;
+    right:-33px;
+    background: none;    
+}
+.venusimg{
+    position:absolute;
+    height:650px;
+    z-index: 2;
+    right:-33px;
+    bottom:-2700px;
+    background: none;
+}
+.venusnum{
+    position: absolute;
+    background: none;
+    left:200px;
+    bottom:-2150px;
+}
+.venusheading{
+    position: absolute;
+    background: none;
+    left:260px;
+    bottom:-2150px;
+}
+.venuscard1{
+    position: absolute;
+    left:180px;
+    bottom:-2400px;
+    background: none;
+}
+.venuscard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.venuscard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.venuscard2{
+    position: absolute;
+    left:180px;
+    bottom:-2600px;
+    background: none;
+}
+.venuscard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.venuscard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.earthimg3{
+    position: absolute;
+    bottom:-3400px;
+    left:150px;
+    background: none;
+}
+.earthimg2{
+    position: absolute;
+    bottom:-3135px;
+    left:447px;
+    background: none;
+
+}
+.earthimg1{
+    position:absolute;
+    bottom:-3400px;
+    left:314px;
+    background: none;
+}
+.earthsideshadow{
+    position:absolute;
+    left:130px;
+    bottom:-3400px;
+    background: none;
+}
+.green1{
+    position: absolute;
+    bottom: -3400px;
+    background: none;
+    z-index: 2;
+    left:146px;
+}
+.green2{
+    position: absolute;
+    bottom:-3352px;
+    z-index: 2;
+    background: none;
+    left:290px;
+}
+.green3{
+    position: absolute;
+    bottom:-3405px;
+    left:211px;
+    background: none;
+}
+.green4{
+    position: absolute;
+    bottom:-3290px;
+    background: none;
+    left:794px;
+}
+.green5{
+    position: absolute;
+    bottom:-3400px;
+    left:999px;
+    background: none;
+}
+.green6{
+    position: absolute;
+    bottom:-3380px;
+    left:830px;
+    background: none;
+}
+.earthwhiteshadow{
+    position:absolute;
+    bottom:-3290px;
+    left:880px;
+    background: none;
+}
+.rocket{
+    position: absolute;
+    left:20px;
+    bottom: -3200px;
+    background: none;
+}
+.rocket{
+    animation : GFG 5s linear infinite ;
+}
+@keyframes GFG { 
+    0% { 
+        transform: rotate(0deg)  
+              translateY(100px) rotate(0deg); 
+    } 
+
+    100% { 
+        transform: rotate(360deg)  
+              translateY(100px) rotate(-360deg); 
+    } 
+} 
+
+.earthcard{
+    position: absolute;
+    bottom:-2950px;
+    left:1100px;
+    background: none;
+}
+.earthcard {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.earthcard:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.earthname{
+    position: absolute;
+    bottom:-2830px;
+    left:90px;
+    background: none;
+}
+.earthtext{
+    position: absolute;
+    bottom:-2900px;
+    left:90px;
+    background: none;
+}
+.yellowback{
+    position:absolute;
+    bottom:-3200px;
+    left:1250px;
+    background: none;
+}
+.moonspot1{
+    position: absolute;
+    bottom:-3150px;
+    left:1300px;
+    background: none;
+}
+.moonspot2{
+    position:absolute;
+    bottom:-3050px;
+    left:1350px;
+    background: none;
+}
+.moonspot3{
+    position:absolute;
+    bottom:-3100px;
+    left:1400px;
+    height:30px;
+    background: none;
+}
+.moonspot4{
+    position:absolute;
+    bottom:-3100px;
+    left:1350px;
+    height:20px;
+    background: none;
+}
+.moonspot5{
+    position: absolute;
+    bottom:-3150px;
+    left:1400px;
+    height:20px;
+    background: none;
+}
+.moonshadow{
+    position: absolute;
+    bottom:-3200px;
+    left:1250px;
+    background: none;
+}
+.arrow{
+    position:absolute;
+    bottom:-3050px;
+    background: none;
+    left:1050px;
+}
+.arrow{
+    animation-name: growshrink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes growshrink{
+    from{
+        height:2900px;
+        width:2900px;
+  }
+  to {
+    height:1900px;
+    width:1900px;
+}
+}
+.mooninfo{
+    position: absolute;
+    bottom:-3000px;
+    left:450px;
+    background: none;
+    width:500px;
+}
+.marsheading{
+    position: absolute;
+    bottom:-3600px;
+    left:100px;
+    background: none;
+}
+.marspic{
+    position: absolute;
+    bottom:-4100px;
+    left:10px;
+    background: none;
+}
+.arrowup{
+    position: absolute;
+    bottom:-3750px;
+    left:500px;
+    background: none;
+}
+.arrowup{
+    animation-name: growshrink ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes growshrink{
+    from {
+        width:100px;
+    }
+    to{
+        width:70px;
+    }
+}
+.marsinfo{
+    position: absolute;
+    bottom:-3880px;
+    left:600px;
+    background: none;
+}
+.marscard1{
+    position: absolute;
+    bottom:-3600px;
+    left:1000px;
+    background: none;
+}
+.marscard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.marscard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.marscard2{
+    position: absolute;
+    bottom:-3820px;
+    left:1000px;
+    background: none;
+}
+.marscard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.marscard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.marscard3{
+    position: absolute;
+    bottom:-4040px;
+    left:1000px;
+    background: none;
+}
+.marscard3 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.marscard3:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.jupiterpic{
+    position: absolute;
+    bottom:-4800px;
+    right:-50px;
+    background: none;
+    height:700px;
+}
+.jhead{
+    position:absolute;
+    bottom:-4300px;
+    left:100px;
+    background: none;
+}
+.jcard1{
+    position: absolute;
+    bottom:-4530px;
+    left:100px;
+    background: none;
+}
+.jcard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.jcard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.jcard2{
+    position: absolute;
+    bottom:-4730px;
+    left:100px;
+    background: none;
+}
+.jcard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.jcard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.saturnpic{
+    position: absolute;
+    bottom:-5550px;
+    background: none;
+}
+.saturnhead{
+    position: absolute;
+    bottom:-5000px;
+    left:600px;
+    background:none;
+}
+.scard1{
+    position: absolute;
+    bottom:-5200px;
+    left:950px;
+    background: none;
+}
+.scard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.scard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.scard2{
+    position: absolute;
+    bottom:-5400px;
+    left:950px;
+    background: none;
+}
+.scard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.scard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.upic{
+    position: absolute;
+    bottom:-6200px;
+    left:60px;
+    background: none;
+}
+.uhead{
+    position: absolute;
+    bottom:-5690px;
+    left:50px;
+    background: none;
+}
+.ucard1{
+    position: absolute;
+    bottom:-5700px;
+    left:600px;
+    background: none;
+}
+.ucard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.ucard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.ucard2{
+    position: absolute;
+    bottom:-5700px;
+    left:990px;
+    background: none;
+}
+.ucard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.ucard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.npic{
+    position: absolute;
+    bottom:-6980px;
+    background: none;
+    width:1000px;
+}
+.nephead{
+    position: absolute;
+    bottom:-6370px;
+    left:180px;
+    background: none;
+}
+.ncard1{
+    position: absolute;
+    bottom:-6535px;
+    left:300px;
+    background: none;
+    width:300px;
+}
+.ncard1 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.ncard1:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.ncard2{
+    position: absolute;
+    bottom:-6535px;
+    left: 700px;
+    background: none;
+    width:300px;
+}
+.ncard2 {
+	-webkit-filter: blur(1.2px);
+	filter: blur(1.2px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.ncard2:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.planetbottom{
+    position: absolute;
+    bottom:-7385px;
+    background: none;
+    width:1000px;
+}
+.footerback{
+    position: absolute;
+    bottom:-7300px;
+    left:200px;
+    background: none;
+    width:1000px;
+}
+.footernav{
+    position: absolute;
+    bottom:-7270px;
+    left:200px;
+    background: none;
+    width:960px;
+}
+.footerinfo{
+    position: absolute;
+    bottom:-7210px;
+    left:390px;
+    background: none;
+    width:600px;
+}
